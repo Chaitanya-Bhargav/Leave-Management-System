@@ -1,0 +1,138 @@
+body{
+	background-color:#D5DBDB;
+	margin:0px;
+}
+h1{
+	font-family:harrington;
+	font-size:34px;	
+}
+header{
+	background-color:#5D6D7E;
+}
+.heading{
+margin-top:150px;
+}
+footer{
+	background-color:#5D6D7E;
+	width:100%;
+	height:60px;
+	cursor:pointer;	
+}
+.footerTag{
+	margin-top:30px;
+	padding-bottom:20px;
+	color:white;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button 
+{ 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.SuccessMsg{
+	border:1px solid #ccc;
+	height:120px;
+	width:600px;
+    color:black;
+	background-color:#D5DBDB;
+	box-shadow:1px 1px 1px 1px #ccc;
+	border-radius:20px;
+	padding-top:10px;
+	margin-top:-450px;
+	font-style:italic;
+	font-size:26px;
+	z-index:3;
+	position:absolute;
+	margin-left:400px;
+}
+h3{
+	border:2px solid black;
+	height:80px;
+	width:500px;
+    color:white;
+	background-color:#7a2322;
+	box-shadow:1px 1px 1px 1px black;
+	border-radius:20px;
+	margin-top:230px;
+	padding-top:40px;
+	font-style:italic;
+	font-size:26px;
+}
+.popUp{
+	display:none;
+}
+.container{
+	border:2px solid white;
+	height:650px;
+	width:900px;
+    color:black;
+	margin-bottom:30px;
+	background-color: #AEB6BF;
+	margin-top:30px;
+	box-shadow:1px 1px 1px 1px black;
+	border-radius:5px;
+}
+.formFields{
+	clear:both;
+	margin-left:40px;
+	padding-top:12px;
+}
+.namelabel{
+	width:30%;
+	float:left;
+	font-size:27px;
+	color:black; 
+	text-align:left;
+	font-family:Times New Roman;
+	font-style:italic;
+}
+.inputControls{
+	width:30%;
+	float:left;
+}
+.btnfield{
+	margin-right:100px; 
+}
+#eid,#ename{
+	width:220px;
+	height:30px;
+	border-radius:5px;
+}
+.inputControls select{
+	width:220px;
+	height:30px;
+	border-radius:5px;
+}
+textarea{
+	width:220px;
+	height:100px;
+	border-radius:10px;
+}
+#fdate,#tdate{
+	width:180px;
+	height:30px;
+	border-radius:5px;
+}
+
+.submitButton{
+	height:30px;
+	width:100px;
+	border-radius:5px;
+	margin-top:40px;
+	background-color:#5D6D7E;
+	border:none;
+	color:white;	
+}
+.toDiv{
+	margin-left:22px;
+	margin-top:10px;
+}
+.footerLogo{
+	float:right;
+	margin-right:20px;
+	font-size:20px;
+}
+.privacyPolicy{
+	margin-left:20px;
+}

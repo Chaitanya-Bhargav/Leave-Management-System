@@ -1,0 +1,70 @@
+
+.AdminForm
+{
+	border:1px solid #ccc;
+	width:600px;
+	height:300px;
+	margin-top:150px;
+	border-radius:10px;
+	background-color:white;
+	color:black;
+	box-shadow:1px 1px 1px 1px #ccc;
+}
+h1{
+	font-family:helvetica;
+	font-size:30px;
+}
+
+.formFields{
+	clear:both;
+	margin-top:25px;
+}
+.nameLabel
+{
+	float:left;
+	margin-bottom:20px;
+	font-size:20px;
+	font-style:italic;
+	font-weight:bold;
+}
+.inputControls
+{
+	float:left;
+}
+#name,#pwd
+{
+	margin-left:20px;
+	width:220px;
+	height:30px;
+	border-radius:5px;
+	margin-bottom:20px;
+}
+.adminSubmit
+{
+	width:300px;
+	height:30px;
+	border-radius:5px;
+	font-size:16px;
+	background-color:#5D6D7E;
+	color:white;
+
+}
+.psw
+{
+	margin-left:30px;
+}
+#invalidMsg
+{
+    position:relative;
+    top:-150px;
+	color:red;
+	font-size:20px;
+}
+#pwd:focus
+{
+	outline:none;
+}
+#name:focus
+{
+	outline:none;
+}
